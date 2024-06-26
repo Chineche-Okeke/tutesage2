@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Montserrat:ital,wght@0,700;1,500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* border-top: 2px solid rgb(161, 158, 158);
+    border-left: 10px solid rgb(161, 158, 158);
+    border-right: 20px solid rgb(161, 158, 158); */
+}
+
+body {
+    background-color: rgb(253, 244, 244);
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5rem 6rem;
+}
+
+/* .image {
+    weight: 100px;
+} */
+
+.tut {
+    font-size: .9rem;
+    font-weight:bold;
+    position: relative;
+    right: 295px;
+}
+
+.nav-bar ul {
+    list-style-type: none;
+    display: flex;
+}
+
+
+.nav-bar ul li {
+    padding: 2rem .8rem;
+    position: relative;
+    left: 80px;
+   }
+   
+   .nav-bar ul li a {
+    text-decoration: none;
+    color: rgb(83, 82, 82);
+    font-size: 0.7rem;
+    font-weight: bold;
+   }
+
+.button {
+    width: 100px;
+    padding: 11px 10px;
+    text-align: center;
+    font-size: .6rem;
+    font-weight: 200;
+    color: white;
+    background-color:rgb(255, 170, 14) ;
+    border: none;
+    border-radius: 5px;
+}
+
+
+ 
+ .wheat {
+   height: 120px;
+   width: 90px;
+   background-color: wheat;
+   border-bottom-right-radius:20px;
+   position: absolute; 
+   z-index: -1;
+}
+
+ .background {
+    height: 560px;
+    width: 550px;
+    background-color: rgb(251, 234, 204);
+    border-radius:none ;
+    position: absolute;
+    top: -100px;
+    right: 0;
+    z-index: -1;   
+} 
+
+.content {
+    display: flex;
+    justify-content: space-around;
+      align-items: center;
+      height: 100vh;
+}
+
+.content-text {
+    position: relative;
+    bottom: 115px;
+    left: 90px;
+}
+
+.content-text h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: black;
+    line-height: 60px;
+
+}
+
+.content-text p {
+    font-size: 1rem;
+    color: rgb(53, 53, 53);
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.content-text button {
+    width: 105px;
+    padding: 11px 10px;
+    text-align: center;
+    font-size: .6rem;
+    font-weight: 200;
+    color: white;
+    background-color:rgb(250, 164, 5) ;
+    border: 2px solid black;
+    border-radius: 5px;
+    position: relative;
+    bottom: 20px;
+    box-shadow: 0px 3px 3px rgb(88, 88, 88);
+}
+
+.content-text img {
+    position: relative;
+    top: 80px;
+    right: 120px;
+}
+
+.content-text .pi {
+    position: relative;
+    left: 110px;
+    bottom: 7px;
+    font-size: .7rem;
+    font-weight: 500;
+    color: rgb(26, 25, 25);
+}
+
+.pi .bx {
+    color: rgb(254, 170, 14);
+}
+
+span {
+    font-weight: bold;
+}
+
+.image {
+    width: 800px;
+    height: 1000px;
+    position: relative;
+    bottom: 80px;
+    right: 130px;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.back {
+    width: 140px;
+    height: 30px;
+    background: rgb(245, 160, 2);
+    position:absolute;
+    left: 915px;
+    top: 187px;
+    box-shadow:  -2px 5px 2px  rgb(30, 29, 29);
+    
+}
+
+ .footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+     position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: o;
+   /* position: fixed;*/
+    text-align: center;
+    margin-bottom: 30px;
+    column-gap: 1px;
+    padding: 0rem 6rem;
+} 
+
+.footer p {
+    font-size: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    color:rgb(112, 108, 108);
+}
+
+.footer h2 {
+    color: rgb(109, 109, 109);
+    font-weight: 200;
+}
+
+.footer .meta {
+    font-family: sans-serif;
+    color: rgb(118, 118, 118);
+}
+
+.meta .bx {
+    float: left;
+    font-size: 25px;
+    position: relative;
+    bottom: 3px;
+}
+
+.footer .youtube {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: rgb(79, 78, 78);
+    
+    
+}
+
+.youtube .bx {
+    float: left;
+    font-size: 28px;
+    position: relative;
+    bottom: 2px;
+}
+
+.footer img {
+    color: rgb(175, 173, 173);
+}
+
+.footer h4 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: rgb(222, 220, 220);
+}
+ 
+@media (max-width:1280px) {
+    .tut {
+        margin-left: 120px;
+    }
+
+    .content-text p {
+        font-size: .76rem;
+    }
+
+    .back {
+        position: relative;
+        left: 752px;
+        top: 271px;
+    }
+
+    .background {
+        width: 435px;
+    }
+
+    .image {
+        margin-left: 200px;
+    }
+} 
+
+
+
+
